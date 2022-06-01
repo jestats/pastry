@@ -5,6 +5,19 @@ body {
     rgba(255, 221, 136, 0.28) 49%
   );
 }
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: green;
+}
 .links {
   text-align: center;
 }
